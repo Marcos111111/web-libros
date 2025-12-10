@@ -1,0 +1,13 @@
+# Configuración básica del sitio
+title: Editorial de Libros Infantiles
+description: La página oficial para la promoción de mis libros.
+baseurl: "" # Deja esto vacío si el repositorio NO es el principal (tu-usuario.github.io)
+url: "https://marcos111111.github.io/web-libros/" # Reemplaza con tu URL real
+
+# Configuración de Jekyll
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Opciones de Build
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
